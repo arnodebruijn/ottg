@@ -25,7 +25,9 @@ SECRET_KEY = 'nnb-#xge(s0#z*=i=_u+_f!%n%4f4t%-u0g%5iwg+^(#pu=m(6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['adebruijn.nl',
+                 'ottg.adebruijn.nl',
+                 'ottg-staging.adebruijn.nl',]
 
 
 # Application definition
